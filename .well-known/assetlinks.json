@@ -1,0 +1,28 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.casinoclient.optibet.lv",
+      "sha256_cert_fingerprints": [
+        "78:FC:2F:1E:84:6F:ED:24:3F:E5:B8:C5:33:61:9B:98:F9:F3:B6:13:A0:32:BB:0A:F3:EC:50:DA:DF:83:09:06",
+        "E9:64:D5:A9:14:68:3D:68:79:F9:6A:2E:C6:BB:07:44:06:43:BA:C1:FD:50:48:98:21:0D:3D:B0:F8:9D:8A:B2"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.casinoclient.optibet.lv.dev",
+      "sha256_cert_fingerprints": [
+        "78:FC:2F:1E:84:6F:ED:24:3F:E5:B8:C5:33:61:9B:98:F9:F3:B6:13:A0:32:BB:0A:F3:EC:50:DA:DF:83:09:06",
+        "E9:64:D5:A9:14:68:3D:68:79:F9:6A:2E:C6:BB:07:44:06:43:BA:C1:FD:50:48:98:21:0D:3D:B0:F8:9D:8A:B2"
+      ]
+    }
+  }
+]
