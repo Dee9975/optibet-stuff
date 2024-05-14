@@ -16,6 +16,7 @@ func main() {
 
 	app.Use(middleware.Static("/static/assetlinks.json"))
 
+	//  Just to have  a commit
 	app.File("/.well-known/assetlinks.json", "static/assetlinks.json")
 
 	app.GET("/hello", func(c echo.Context) error {
