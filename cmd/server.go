@@ -14,9 +14,9 @@ func main() {
 		AllowMethods: []string{echo.GET, echo.PUT, echo.POST, echo.DELETE},
 	}))
 
-	app.Use(middleware.Static("/.well-known/assetlinks.json"))
+	app.Use(middleware.Static("/static/assetlinks.json"))
 
-	app.File("/.well-known/assetlinks.json", ".well-known/assetlinks.json")
+	app.File("/.well-known/assetlinks.json", "static/assetlinks.json")
 
 	app.GET("/hello", func(c echo.Context) error {
 		return c.String(http.StatusOK, "Hello, World!")
